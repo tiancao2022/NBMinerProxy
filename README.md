@@ -48,7 +48,7 @@ Custom charging proxy software for mining pool. Coin support `BTC`, `LTC`, `ZEC`
 
 ## Contact Us
 #- Email: hansenloveyou520@gmail.com
-#- [Telegram](https://t.me/FxminerChat)
+#- [Telegram](https://t.me/LXMinerProxy)
 
 ## Deploy
 
@@ -92,13 +92,6 @@ Custom charging proxy software for mining pool. Coin support `BTC`, `LTC`, `ZEC`
   * 1 Decompress fxminerproxyv3.zip
   * 2 open fxminerproxyv3 dir and run `run.exe`
 
-- **download**
-
-  | version | name                |
-  | ------- | -------             |
-  | latest   | [fxminerproxyv3.zip]|
-  
-- Download older versions from [github releases](https://github.com/tiancao2022/FXMinerProxy/releases)
 
 ## Features
 * Support Windows & Linux.
