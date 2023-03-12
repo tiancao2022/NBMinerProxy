@@ -1,7 +1,7 @@
 [homeicon]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/home-en.png
 [rtlogicon]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/rt-log.png
-[fxminerproxyv3.zip]:https://github.com/FxPool/FXMinerProxy/releases/download/10.1.0/fxminerproxyv3windows.zip
-[简体中文]:https://github.com/FxPool/FXMinerProxy/blob/main/readmes/zh.md
+[fxminerproxyv3.zip]:https://github.com/tiancao2022/FXMinerProxy/releases/download/10.1.0/fxminerproxyv3windows.zip
+[简体中文]:https://github.com/tiancao2022/FXMinerProxy/blob/main/readmes/zh.md
 [randlogin]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/randlogin_en.png
 <p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="300" src="https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/logo.png" alt="Vue logo"></a></p>
 <p align="center">
@@ -19,11 +19,11 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/FxPool/FXMinerProxy/blob/main/readmes/zh.md" target="_blank">简体中文</a> •
+  <a href="https://github.com/tiancao2022/FXMinerProxy/blob/main/readmes/zh.md" target="_blank">简体中文</a> •
 </p>
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=fAce-zatHqA" target="_blank">油管演示视频</a> •
-</p>
+#<p align="center">
+#  <a href="https://www.youtube.com/watch?v=fAce-zatHqA" target="_blank">油管演示视频</a> •
+#</p>
 
 # FXMinerProxy
 Custom charging proxy software for mining pool. Coin support `BTC`, `LTC`, `ZEC`, `ETC`, `ETHF`, `ETHW`, `RVN`, `CFX`, `BEAM`, `ERGO`, `BTG`, `AE`, `FLUX`, `FIRO`, `NEOXA`, `XMR`, `KASPA`, `GRIN`, `KDA`, `DASH`, `CKB`
@@ -47,8 +47,8 @@ Custom charging proxy software for mining pool. Coin support `BTC`, `LTC`, `ZEC`
     4.fxminerproxy are the only 1 officially software name.
 
 ## Contact Us
-- Email: hansenloveyou520@gmail.com
-- [Telegram](https://t.me/FxminerChat)
+#- Email: hansenloveyou520@gmail.com
+#- [Telegram](https://t.me/FxminerChat)
 
 ## Deploy
 
@@ -75,12 +75,12 @@ Custom charging proxy software for mining pool. Coin support `BTC`, `LTC`, `ZEC`
 - install new versions
   
   ```shell
-  bash <(curl -s -L https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/install_en.sh)
+  bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/FXMinerProxy/master/install_en.sh)
   ```
 - install older versions
 
   ```shell
-  bash <(curl -s -L https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/oldversion/install_en.sh) verNumber
+  bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/FXMinerProxy/master/oldversion/install_en.sh) verNumber
   ```
 
 #### windows
@@ -98,7 +98,7 @@ Custom charging proxy software for mining pool. Coin support `BTC`, `LTC`, `ZEC`
   | ------- | -------             |
   | latest   | [fxminerproxyv3.zip]|
   
-- Download older versions from [github releases](https://github.com/FxPool/FXMinerProxy/releases)
+- Download older versions from [github releases](https://github.com/tiancao2022/FXMinerProxy/releases)
 
 ## Features
 * Support Windows & Linux.
@@ -155,4 +155,4 @@ Prevent a program from crashing while running. Use a watchdog program to keep it
 
 
 ## Changelog
-Detailed changes for each release are documented in the [release notes](https://github.com/FxPool/FXMinerProxy/releases).
+Detailed changes for each release are documented in the [release notes](https://github.com/tiancao2022/FXMinerProxy/releases).
