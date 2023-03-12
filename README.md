@@ -1,7 +1,7 @@
 [homeicon]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/home-en.png
 [rtlogicon]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/rt-log.png
 [fxminerproxyv3.zip]:https://github.com/tiancao2022/FXMinerProxy/releases/download/10.1.0/fxminerproxyv3windows.zip
-[简体中文]:https://github.com/tiancao2022/FXMinerProxy/blob/main/readmes/zh.md
+[简体中文]:https://github.com/tiancao2022/FXMinerProxy/blob/master/readmes/zh.md
 [randlogin]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/randlogin_en.png
 <p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="300" src="https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/logo.png" alt="Vue logo"></a></p>
 <p align="center">
@@ -19,7 +19,7 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/tiancao2022/FXMinerProxy/blob/main/readmes/zh.md" target="_blank">简体中文</a> •
+  <a href="https://github.com/tiancao2022/FXMinerProxy/blob/master/readmes/zh.md" target="_blank">简体中文</a> •
 </p>
 #<p align="center">
 #  <a href="https://www.youtube.com/watch?v=fAce-zatHqA" target="_blank">油管演示视频</a> •
