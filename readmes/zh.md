@@ -120,7 +120,7 @@
 * 支持自定义ssl/tls证书上传.
 * 支持代理端口数据通过配置文件导入快速配置.
 * 支持动态计算芯片机器和一些不上报本地算力机器的算力(10分中计算一次会有误差只做参考).
-* 支持隧道加密技术。[sslmix隧道加密](https://github.com/FxPool/SSLMIX)。[aesmix隧道加密](https://github.com/FxPool/AESMIX)
+* 支持隧道加密技术。[sslmix隧道加密](https://github.com/tiancao2022/SSLMIX)。[aesmix隧道加密](https://github.com/tiancao2022/AESMIX)
 * 支持服务器到矿池使用ssl连接.
 * 开发费用: 
   * 所有币种 0.27%
