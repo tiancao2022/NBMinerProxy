@@ -21,9 +21,6 @@
 <p align="center">
   <a href="https://github.com/tiancao2022/FXMinerProxy/blob/master/readmes/zh.md" target="_blank">简体中文</a> •
 </p>
-#<p align="center">
-#  <a href="https://www.youtube.com/watch?v=fAce-zatHqA" target="_blank">油管演示视频</a> •
-#</p>
 
 # FXMinerProxy
 Custom charging proxy software for mining pool. Coin support `BTC`, `LTC`, `ZEC`, `ETC`, `ETHF`, `ETHW`, `RVN`, `CFX`, `BEAM`, `ERGO`, `BTG`, `AE`, `FLUX`, `FIRO`, `NEOXA`, `XMR`, `KASPA`, `GRIN`, `KDA`, `DASH`, `CKB`

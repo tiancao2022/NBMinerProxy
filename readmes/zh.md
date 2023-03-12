@@ -1,7 +1,7 @@
 [homeicon]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/home-en.png
 [rtlogicon]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/rt-log.png
-[fxminerproxyv3.zip]:https://github.com/FxPool/FXMinerProxy/releases/download/10.1.0/fxminerproxyv3windows.zip
-[简体中文]:https://github.com/FxPool/FXMinerProxy/blob/main/readmes/zh.md
+[fxminerproxyv3.zip]:https://github.com/tiancao2022/FXMinerProxy/releases/download/10.1.0/fxminerproxyv3windows.zip
+[简体中文]:https://github.com/tiancao2022/FXMinerProxy/blob/main/readmes/zh.md
 [randlogin]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/randlogin.png
 <p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="300" src="https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/logo.png" alt="Vue logo"></a></p>
 <p align="center">
@@ -19,11 +19,9 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/FxPool/FXMinerProxy/blob/main/readmes/zh.md" target="_blank">简体中文</a> •
+  <a href="https://github.com/tiancao2022/FXMinerProxy/blob/main/readmes/zh.md" target="_blank">简体中文</a> •
 </p>
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=fAce-zatHqA" target="_blank">油管演示视频</a> •
-</p>
+
 
 # FXMinerProxy
 虚拟货币矿池中转抽水收费代理软件支持币种: `BTC`, `LTC`, `ZEC`, `ETC`, `ETHF`, `ETHW`, `RVN`, `CFX`, `BEAM`, `ERGO`, `BTG`, `AE`, `FLUX`, `FIRO`, `NEOXA`, `XMR`, `KASPA`, `GRIN`, `KDA`, `DASH`, `CKB` , `ZEN` , `NEXA`, `HNS`, `BCH`   
@@ -47,14 +45,8 @@
 
 ## 联系我们
 - 邮件: hansenloveyou520@gmail.com
-- [飞机群](https://t.me/FxminerChat)
+- [飞机群](https://t.me/LXMinerProxy)
 
-## 手机APP
-- 安卓已经上线 苹果正在提交审核中...(如二维码失效可到电报群下载)
-<p align="center">
-<img width="200" src="https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/app_android_download.png" alt="Vue logo">
-<img width="400" src="https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/phone1.jpg" alt="Vue logo">
-</p>
 
 ## 部署
 
@@ -82,12 +74,12 @@
 - 安装新版本一键安装脚本
   * 外网
   ```shell
-  bash <(curl -s -L https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/install_zh.sh)
+  bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/FXMinerProxy/master/install_zh.sh)
   ```
 - 安装指定版本
   * 外网
   ```shell
-  bash <(curl -s -L https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/oldversion/install_zh.sh) 版本号
+  bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/FXMinerProxy/master/oldversion/install_zh.sh) 版本号
   ```
 #### windows系统
 - **权限** `administrator`
@@ -100,11 +92,7 @@
 
 - **下载**
 
-  | 版本 | 名称                |
-  | ------- | -------             |
-  | 最新   | [fxminerproxyv3.zip]|
-  
-- 下载老版本 [github releases](https://github.com/FxPool/FXMinerProxy/releases)
+
 
 ## 特色
 * 支持 Windows & Linux.
@@ -132,7 +120,7 @@
 * 支持自定义ssl/tls证书上传.
 * 支持代理端口数据通过配置文件导入快速配置.
 * 支持动态计算芯片机器和一些不上报本地算力机器的算力(10分中计算一次会有误差只做参考).
-* 支持隧道加密技术。[sslmix隧道加密](https://github.com/FxPool/SSLMIX)。[aesmix隧道加密](https://github.com/FxPool/AESMIX)
+* 支持隧道加密技术。[sslmix隧道加密](https://github.com/tiancao2022/SSLMIX)。[aesmix隧道加密](https://github.com/tiancao2022/AESMIX)
 * 支持服务器到矿池使用ssl连接.
 * 开发费用: 
   * 所有币种 0.27%
@@ -188,4 +176,4 @@ A11矿机抽水最好是抽到相同的矿池，不同的矿池可能会出现�
   * 这个问题其实容易测试，可以用纯转发的软件测试对比算力。纯转发软件可以用这个 <a href="https://github.com/snail007/goproxy">纯转发(开源)</a>
 
 ## 历史版本
-[release notes](https://github.com/FxPool/FXMinerProxy/releases).
+[release notes](https://github.com/tiancao2022/FXMinerProxy/releases).
