@@ -1,9 +1,9 @@
-[homeicon]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/home-en.png
-[rtlogicon]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/rt-log.png
-[fxminerproxyv3.zip]:https://github.com/tiancao2022/FXMinerProxy/releases/download/10.1.0/fxminerproxyv3windows.zip
-[简体中文]:https://github.com/tiancao2022/FXMinerProxy/blob/main/readmes/zh.md
-[randlogin]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/randlogin.png
-<p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="300" src="https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/logo.png" alt="Vue logo"></a></p>
+[homeicon]:https://raw.githubusercontent.com/FxPool/NBMinerProxy/master/image/home-en.png
+[rtlogicon]:https://raw.githubusercontent.com/FxPool/NBMinerProxy/master/image/rt-log.png
+[fxminerproxyv3.zip]:https://github.com/tiancao2022/NBMinerProxy/releases/download/10.1.0/fxminerproxyv3windows.zip
+[简体中文]:https://github.com/tiancao2022/FXMinerProxy/blob/master/readmes/zh.md
+[randlogin]:https://raw.githubusercontent.com/FxPool/NBMinerProxy/master/image/randlogin.png
+<p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="500" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/logo.png" alt="Vue logo"></a></p>
 <p align="center">
   <a>
     <img src="https://img.shields.io/badge/Release-10.1.0-orgin.svg" alt="travis">
@@ -19,7 +19,7 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/tiancao2022/FXMinerProxy/blob/main/readmes/zh.md" target="_blank">简体中文</a> •
+  <a href="https://github.com/tiancao2022/NBMinerProxy/blob/master/readmes/zh.md" target="_blank">简体中文</a> •
 </p>
 
 
@@ -27,7 +27,7 @@
 虚拟货币矿池中转抽水收费代理软件支持币种: `BTC`, `LTC`, `ZEC`, `ETC`, `ETHF`, `ETHW`, `RVN`, `CFX`, `BEAM`, `ERGO`, `BTG`, `AE`, `FLUX`, `FIRO`, `NEOXA`, `XMR`, `KASPA`, `GRIN`, `KDA`, `DASH`, `CKB` , `ZEN` , `NEXA`, `HNS`, `BCH`   
 
 ## 收费系统模型
-<p><a target="_blank" rel="noopener noreferrer"><img width="1200" height="240" src="https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/TollSys.png"></a></p>
+<p><a target="_blank" rel="noopener noreferrer"><img width="1200" height="240" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/TollSys.png"></a></p>
 
 ## 后台面板
 ![homeicon]
@@ -74,12 +74,12 @@
 - 安装新版本一键安装脚本
   * 外网
   ```shell
-  bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/FXMinerProxy/master/install_zh.sh)
+  bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/install_zh.sh)
   ```
 - 安装指定版本
   * 外网
   ```shell
-  bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/FXMinerProxy/master/oldversion/install_zh.sh) 版本号
+  bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/oldversion/install_zh.sh) 版本号
   ```
 #### windows系统
 - **权限** `administrator`
@@ -145,7 +145,7 @@
 
 ## 稳定的抽水算力曲线
 - **鱼池 BTC 例子**
-<p><a target="_blank" rel="noopener noreferrer"><img width="1200" height="300" src="https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/stable-chart.png"></a></p>
+<p><a target="_blank" rel="noopener noreferrer"><img width="1200" height="300" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/stable-chart.png"></a></p>
 
 
 ## ⚠️ 常见问题
@@ -176,4 +176,4 @@ A11矿机抽水最好是抽到相同的矿池，不同的矿池可能会出现�
   * 这个问题其实容易测试，可以用纯转发的软件测试对比算力。纯转发软件可以用这个 <a href="https://github.com/snail007/goproxy">纯转发(开源)</a>
 
 ## 历史版本
-[release notes](https://github.com/tiancao2022/FXMinerProxy/releases).
+[release notes](https://github.com/tiancao2022/NBMinerProxy/releases).
