@@ -3,7 +3,7 @@
 [fxminerproxyv3.zip]:https://github.com/tiancao2022/FXMinerProxy/releases/download/10.1.0/fxminerproxyv3windows.zip
 [简体中文]:https://github.com/tiancao2022/FXMinerProxy/blob/master/readmes/zh.md
 [randlogin]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/randlogin_en.png
-<p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="300" src="https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/logo.png" alt="Vue logo"></a></p>
+<p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="300" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/logo.png" alt="Vue logo"></a></p>
 <p align="center">
   <a>
     <img src="https://img.shields.io/badge/Release-10.1.0-orgin.svg" alt="travis">
