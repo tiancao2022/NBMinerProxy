@@ -141,7 +141,7 @@ Prevent a program from crashing while running. Use a watchdog program to keep it
 
 ## Stable charge curve
 - **BTC F2POOL Fee example**
-<p><a target="_blank" rel="noopener noreferrer"><img width="1200" height="300" src="https://raw.githubusercontent.com/FxPool/NBMinerProxy/main/image/stable-chart.png"></a></p>
+<p><a target="_blank" rel="noopener noreferrer"><img width="1200" height="300" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/stable-chart.png"></a></p>
 
 
 ## Changelog
