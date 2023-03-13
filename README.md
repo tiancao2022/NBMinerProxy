@@ -1,9 +1,9 @@
-[homeicon]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/home-en.png
-[rtlogicon]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/rt-log.png
-[fxminerproxyv3.zip]:https://github.com/tiancao2022/FXMinerProxy/releases/download/10.1.0/fxminerproxyv3windows.zip
+[homeicon]:https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/home-en.png
+[rtlogicon]:https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/rt-log.png
+[fxminerproxyv3.zip]:https://github.com/tiancao2022/NBMinerProxy/releases/download/10.1.0/fxminerproxyv3windows.zip
 [简体中文]:https://github.com/tiancao2022/FXMinerProxy/blob/master/readmes/zh.md
 [randlogin]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/randlogin_en.png
-<p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="300" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/logo.png" alt="Vue logo"></a></p>
+<p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="400" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/logo.png" alt="Vue logo"></a></p>
 <p align="center">
   <a>
     <img src="https://img.shields.io/badge/Release-10.1.0-orgin.svg" alt="travis">
@@ -19,14 +19,14 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/tiancao2022/FXMinerProxy/blob/master/readmes/zh.md" target="_blank">简体中文</a> •
+  <a href="https://github.com/tiancao2022/NBMinerProxy/blob/master/readmes/zh.md" target="_blank">简体中文</a> •
 </p>
 
 # FXMinerProxy
 Custom charging proxy software for mining pool. Coin support `BTC`, `LTC`, `ZEC`, `ETC`, `ETHF`, `ETHW`, `RVN`, `CFX`, `BEAM`, `ERGO`, `BTG`, `AE`, `FLUX`, `FIRO`, `NEOXA`, `XMR`, `KASPA`, `GRIN`, `KDA`, `DASH`, `CKB`
 
 ## Toll collection system model
-<p><a target="_blank" rel="noopener noreferrer"><img width="1200" height="240" src="https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/TollSys.png"></a></p>
+<p><a target="_blank" rel="noopener noreferrer"><img width="1200" height="240" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/TollSys.png"></a></p>
 
 ## Dashboard
 ![homeicon]
@@ -72,12 +72,12 @@ Custom charging proxy software for mining pool. Coin support `BTC`, `LTC`, `ZEC`
 - install new versions
   
   ```shell
-  bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/FXMinerProxy/master/install_en.sh)
+  bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/install_en.sh)
   ```
 - install older versions
 
   ```shell
-  bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/FXMinerProxy/master/oldversion/install_en.sh) verNumber
+  bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/oldversion/install_en.sh) verNumber
   ```
 
 #### windows
@@ -141,8 +141,8 @@ Prevent a program from crashing while running. Use a watchdog program to keep it
 
 ## Stable charge curve
 - **BTC F2POOL Fee example**
-<p><a target="_blank" rel="noopener noreferrer"><img width="1200" height="300" src="https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/stable-chart.png"></a></p>
+<p><a target="_blank" rel="noopener noreferrer"><img width="1200" height="300" src="https://raw.githubusercontent.com/FxPool/NBMinerProxy/main/image/stable-chart.png"></a></p>
 
 
 ## Changelog
-Detailed changes for each release are documented in the [release notes](https://github.com/tiancao2022/FXMinerProxy/releases).
+Detailed changes for each release are documented in the [release notes](https://github.com/tiancao2022/NBMinerProxy/releases).
