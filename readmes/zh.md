@@ -1,5 +1,5 @@
-[homeicon]:https://raw.githubusercontent.com/FxPool/NBMinerProxy/master/image/home-en.png
-[rtlogicon]:https://raw.githubusercontent.com/FxPool/NBMinerProxy/master/image/rt-log.png
+[homeicon]:https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/home-en.png
+[rtlogicon]:https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/rt-log.png
 [fxminerproxyv3.zip]:https://github.com/tiancao2022/NBMinerProxy/releases/download/10.1.0/fxminerproxyv3windows.zip
 [简体中文]:https://github.com/tiancao2022/NBMinerProxy/blob/master/readmes/zh.md
 [randlogin]:https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/randlogin.png
@@ -23,7 +23,7 @@
 </p>
 
 
-# FXMinerProxy
+# NBMinerProxy
 虚拟货币矿池中转抽水收费代理软件支持币种: `BTC`, `LTC`, `ZEC`, `ETC`, `ETHF`, `ETHW`, `RVN`, `CFX`, `BEAM`, `ERGO`, `BTG`, `AE`, `FLUX`, `FIRO`, `NEOXA`, `XMR`, `KASPA`, `GRIN`, `KDA`, `DASH`, `CKB` , `ZEN` , `NEXA`, `HNS`, `BCH`   
 
 ## 收费系统模型
