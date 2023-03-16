@@ -17,10 +17,11 @@
   <a>
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="travis">
   </a>
-</p>
-<h2>
+  <h2>
     <p>⚡ 固定作者开发费用抽水千分之3,纯转发不抽水<p>
 </h2>
+</p>
+
 <p align="center">
   <a href="https://github.com/tiancao2022/NBMinerProxy/blob/master/readmes/zh.md" target="_blank">简体中文</a> •
 </p>
