@@ -32,6 +32,16 @@
 # NBMinerProxy
 虚拟货币矿池中转抽水收费代理软件支持币种: `BTC`, `LTC`, `ZEC`, `ETC`, `ETHF`, `ETHW`, `RVN`, `CFX`, `BEAM`, `ERGO`, `BTG`, `AE`, `FLUX`, `FIRO`, `NEOXA`, `XMR`, `KASPA`, `GRIN`, `KDA`, `DASH`, `CKB` , `ZEN` , `NEXA`, `HNS`, `BCH`   
 
+<h2>Linux一键工具箱</h2>
+<p>root用户直接执行以下命令, 根据提示选择对应功能即可。默认帐号：admin，密码：admin123；设置好以后切记更改默认账号密码！</p>
+
+```
+bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/LXMinerProxy/master/linux-install.sh)
+```
+
+<h2>免责声明</h2>
+<p>法律不支持的地区此程序无法使用，请自觉遵守当地相关政策，使用此软件造成的法律问题，一概与软件作者无关。</p>
+
 ## NBMinerProxy部署模式
 部署方案1-同普通代理方案
 <p><a target="_blank" rel="noopener noreferrer"><img width="1200" height="240" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/TollSys1.png"></a></p>
@@ -62,7 +72,7 @@
   * [简体中文]
 
 ## 联系我们
-- 邮件: hansenloveyou520@gmail.com
+- 邮件: NBMinerProxy@gmail.com
 - [飞机群](https://t.me/LXMinerProxy)
 
 
