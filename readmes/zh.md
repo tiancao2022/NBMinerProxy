@@ -26,8 +26,26 @@
 # NBMinerProxy
 虚拟货币矿池中转抽水收费代理软件支持币种: `BTC`, `LTC`, `ZEC`, `ETC`, `ETHF`, `ETHW`, `RVN`, `CFX`, `BEAM`, `ERGO`, `BTG`, `AE`, `FLUX`, `FIRO`, `NEOXA`, `XMR`, `KASPA`, `GRIN`, `KDA`, `DASH`, `CKB` , `ZEN` , `NEXA`, `HNS`, `BCH`   
 
-## 收费系统模型
-<p><a target="_blank" rel="noopener noreferrer"><img width="1200" height="240" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/TollSys.png"></a></p>
+## NBMinerProxy部署模式
+部署方案1-同普通代理方案
+<p><a target="_blank" rel="noopener noreferrer"><img width="1200" height="240" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/TollSys1.png"></a></p>
+部署方案2
+<p><a target="_blank" rel="noopener noreferrer"><img width="1200" height="240" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/TollSys2.png"></a></p>
+部署方案3
+<p><a target="_blank" rel="noopener noreferrer"><img width="1200" height="240" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/TollSys3.png"></a></p>
+
+## 部署模式解释
+如果使用部署模式1：该模式矿机直连服务端代理，无需客户端代理，链路如下所示
+
+矿机->运营商->服务端代理(香港云主机)->矿池
+
+如果使用部署模式2：该模式每台矿机上安装客户端代理，然后矿机连客户端代理，链路如下所示
+
+矿机->客户端代理(本地局域网)->运营商->服务端代理(香港云主机)->矿池
+
+如果使用部署模式3：该模式在本地局域网随便找一台机器，然后运行客户端代理，局域网上所有机器连这台安装了客户端代理的机器，然后客户端代理连服务端代理，链路如下所示
+
+矿机->客户端代理(本地局域网)->运营商->服务端代理(香港云主机)->矿池
 
 ## 后台面板
 ![homeicon]
@@ -36,12 +54,6 @@
 ## 支持语言
   * Us English
   * [简体中文]
-
-## 免责声明
-    1.本客户端设计、维护人员仅提供技术服务，不以营利为目的，本客户端的运行遵守服务器所在地的法律法规。本客户端用户必须严格按照当地法律法规使用本软件，如使用本客户端违反当地法律，应承担相应的法律责任。
-    2.在使用本应用程序之前，请详细阅读本应用程序的描述。如果用户没有因本应用程序的技术问题造成任何损失，由用户自行负责，损失由应用程序开发和维护人员负责。无论如何，用户不得就此向开发者或维护者提出索赔或诉讼。
-    3.您应确保您不是中国大陆、古巴、伊朗、朝鲜、叙利亚、俄罗斯或其他受相关国家或政府或国际机构管理或执行的制裁的国家或地区的居民。由此产生的法律责任由本人承担。
-    4.Fxminerproxy是唯一一个正式的软件名称。
 
 ## 联系我们
 - 邮件: hansenloveyou520@gmail.com
