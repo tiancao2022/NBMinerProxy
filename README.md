@@ -28,16 +28,16 @@
   <a href="https://github.com/tiancao2022/NBMinerProxy/blob/master/readmes/zh.md" target="_blank">简体中文</a> •
 </p>
 
-
 # NBMinerProxy
 虚拟货币矿池中转抽水收费代理软件支持币种: `BTC`, `LTC`, `ZEC`, `ETC`, `ETHF`, `ETHW`, `RVN`, `CFX`, `BEAM`, `ERGO`, `BTG`, `AE`, `FLUX`, `FIRO`, `NEOXA`, `XMR`, `KASPA`, `GRIN`, `KDA`, `DASH`, `CKB` , `ZEN` , `NEXA`, `HNS`, `BCH`   
 
 <h2>Linux一键工具箱</h2>
-<p>root用户直接执行以下命令, 根据提示选择对应功能即可。默认帐号：admin，密码：admin123；设置好以后切记更改默认账号密码！</p>
+<p>root用户直接执行以下命令, 根据提示选择对应功能即可。系统采用随机端口用户名和密码，启动的时候请注意控制台的打印</p>
 
 ```
-bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/LXMinerProxy/master/linux-install.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/install_zh.sh)
 ```
+<p><a target="_blank" rel="noopener noreferrer"><img width="1200" height="240" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/sjdk.png"></a></p>
 
 <h2>免责声明</h2>
 <p>法律不支持的地区此程序无法使用，请自觉遵守当地相关政策，使用此软件造成的法律问题，一概与软件作者无关。</p>
