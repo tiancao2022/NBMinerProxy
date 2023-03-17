@@ -34,7 +34,7 @@
 ```
 bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/install_zh.sh)
 ```
-本地隧道加密windows客户端下载[sslmix隧道加密](https://github.com/tiancao2022/SSLMIX/ssmixwindows)
+本地隧道加密windows客户端下载[本地加密隧道_V1.4.3]
 
 <p><a target="_blank" rel="noopener noreferrer"><img width="900" height="110" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/sjdk.png"></a></p>
 
