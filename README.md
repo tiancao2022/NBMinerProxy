@@ -36,9 +36,6 @@ bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/mas
 ```
 <p><a target="_blank" rel="noopener noreferrer"><img width="900" height="110" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/sjdk.png"></a></p>
 
-<h2>免责声明</h2>
-<p>法律不支持的地区此程序无法使用，请自觉遵守当地相关政策，使用此软件造成的法律问题，一概与软件作者无关。</p>
-
 ## NBMinerProxy部署模式
 部署方案1-同普通代理方案
 <p><a target="_blank" rel="noopener noreferrer"><img width="1000" height="200" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/TollSys1.png"></a></p>
@@ -63,11 +60,6 @@ bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/mas
 ## 后台面板
 ![homeicon]
 ![rtlogicon]
-
-
-## 联系我们
-- 邮件: NBMinerProxy@gmail.com
-- [飞机群](https://t.me/LXMinerProxy)
 
 
 ## 推荐服务器配置
@@ -187,5 +179,10 @@ A11矿机抽水最好是抽到相同的矿池，不同的矿池可能会出现�
 * 不开抽水功能是否真的作者不抽水
   * 这个问题其实容易测试，可以用纯转发的软件测试对比算力。纯转发软件可以用这个 <a href="https://github.com/snail007/goproxy">纯转发(开源)</a>
 
-## 历史版本
-[release notes](https://github.com/tiancao2022/NBMinerProxy/releases).
+
+## 联系我们
+- 邮件: NBMinerProxy@gmail.com
+- [飞机群](https://t.me/LXMinerProxy)
+
+<h2>免责声明</h2>
+<p>法律不支持的地区此程序无法使用，请自觉遵守当地相关政策，使用此软件造成的法律问题，一概与软件作者无关。</p>
