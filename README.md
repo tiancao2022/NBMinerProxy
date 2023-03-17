@@ -64,59 +64,15 @@ bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/mas
 ![homeicon]
 ![rtlogicon]
 
-## 支持语言
-  * Us English
-  * [简体中文]
 
 ## 联系我们
 - 邮件: NBMinerProxy@gmail.com
 - [飞机群](https://t.me/LXMinerProxy)
 
 
-## 部署
+## 推荐服务器配置
 
-- `系统采用随机端口用户名和密码，启动的时候请注意控制台的打印`
-
-  ![randlogin]
-
-- 推荐配置`(理论单台矿机内存:100K~150K)`
-  | 矿机数 |     CPU |     内存 | 带宽    |
-  | ------- | ------- | ------- |  -------     |
-  | n<200       | 1 core |     1Gb | 2Mbps     |
-  |200<n<500    | 1 core |     2Gb | 4Mbps     |
-  |500<n<1000   | 2 core |     2Gb | 10Mbps    |
-  |1000<n<5000  | 2 core |     4Gb | 50Mbps    |
-  |5000<n<10000 | 4 core |     6Gb | 300Mbps   |
-  |n>10000      | 8 core |     16Gb| 500Mbps   |
-
-
-#### Linux 系统
-- **权限** `root`
-- **支持的系统** `centOS 7+ / debian 8+ / ubuntu 16+`
-- **推荐系统** `debian`
-- **需要curl** 工具 **debian ubuntu 下载:** `apt-get install curl`
-- **需要wget** 工具 **debian ubuntu 下载:** `apt-get install wget`
-- 安装新版本一键安装脚本
-  * 外网
-  ```shell
-  bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/install_zh.sh)
-  ```
-- 安装指定版本
-  * 外网
-  ```shell
-  bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/oldversion/install_zh.sh) 版本号
-  ```
-#### windows系统
-- **权限** `administrator`
-- **系统支持** `windows8+`
-- **推荐系统** `WindowsServer2012`
-- **如何运行**
-
-  * 1 解压 fxminerproxyv3.zip
-  * 2 打开 fxminerproxyv3 文件夹然后运行 `run.exe` 只能运行run.exe可保证程序不死机
-
-- **下载**
-
+<p><a target="_blank" rel="noopener noreferrer"><img width="900" height="110" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/fwqpz.png"></a></p>
 
 
 ## 特色
