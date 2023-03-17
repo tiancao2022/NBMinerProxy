@@ -38,7 +38,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/mas
 <p><a target="_blank" rel="noopener noreferrer"><img width="900" height="110" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/sjdk.png"></a></p>
 
 <h2>windows软件下载</h2>
-本地隧道加密windows客户端下载:[本地加密隧道_V1.4.3](https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/sslmixwindows_V1.4.3.zip)
+本地隧道加密windows客户端下载  [本地加密隧道_V1.4.3](https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/sslmixwindows_V1.4.3.zip)
 
 ## NBMinerProxy部署模式
 部署方案1-同普通代理方案
