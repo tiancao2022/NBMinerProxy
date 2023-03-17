@@ -34,6 +34,8 @@
 ```
 bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/install_zh.sh)
 ```
+支持隧道加密技术。[sslmix隧道加密](https://github.com/tiancao2022/SSLMIX)
+
 <p><a target="_blank" rel="noopener noreferrer"><img width="900" height="110" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/sjdk.png"></a></p>
 
 ## NBMinerProxy部署模式
