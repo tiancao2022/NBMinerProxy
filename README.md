@@ -66,7 +66,6 @@ bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/mas
 
 <p><a target="_blank" rel="noopener noreferrer"><img width="700" height="180" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/fwqpz.png"></a></p>
 
-
 ## 更新日志
 
 10.2.0
