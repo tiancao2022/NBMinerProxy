@@ -72,7 +72,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/mas
 
 ## 推荐服务器配置
 
-<p><a target="_blank" rel="noopener noreferrer"><img width="900" height="110" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/fwqpz.png"></a></p>
+<p><a target="_blank" rel="noopener noreferrer"><img width="900" height="160" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/fwqpz.png"></a></p>
 
 
 ## 特色
