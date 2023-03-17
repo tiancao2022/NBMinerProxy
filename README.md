@@ -78,6 +78,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/mas
 ## 更新日志
 
 10.2.0
+
 增加SC币种
 增加双挖ETC/ZIL ETHF和ETHW同样使用
 矿机界面新功能增加添加抽水和用户矿机得无效无效抽水日志
@@ -86,6 +87,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/mas
 隧道加密自动地址改为用户填写得API地址为主IP
 
 10.1.0
+
 1.增加抽水时补偿登录用时
 2.修改所有币种抽水用时算法统一
 3.修改特殊矿机无法计算抽水份额的问题
@@ -93,11 +95,13 @@ bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/mas
 5.解决纯转发导致程序重启的问题
 
 10.0.0
+
 解决10.0.2和10.0.3版本一些币种抽水异常的问题（noce值改错了）
 解决隧道加密数据量太大导致无法加载配置的BUG
 修改一些币种可能出现无法抽水的BUG建议更新
 
 9.0.0
+
 1.NEXA DNX HNS BCH ZEN DNX 币种
 2.记录错误日志自动生成记录提示
 3.记录每个抽水账户的份额难度延迟等
@@ -107,6 +111,9 @@ bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/mas
 7.APIKAY功能
 8.首页显示日志条数提醒
 9.首页显示实时网速
+
+8.1.0
+
 优化:
 1.端口界面UI优化
 2.日志界面UI优化
@@ -118,6 +125,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/mas
 4.登陆界面有时无法登陆的BUG修改
 
 8.0.0
+
 1.增加单个矿机UI界面显示历史算力抽水份额
 2.增肌单个矿机实时日志系统(可实时显示矿机上报份额抽水份额等帮助分析类似挖矿内核)
 3.增加单个矿机历史日志显示
@@ -131,6 +139,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/mas
 11.调整UI界面优化UI界面
 
 7.9.0
+
 V9版本大更新后面出更新说明 临时上线解决安全问题 UI还有10%没有完成 用户先更新
 
 ## 特色
