@@ -41,11 +41,11 @@ bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/mas
 
 ## NBMinerProxy部署模式
 部署方案1-同普通代理方案
-<p><a target="_blank" rel="noopener noreferrer"><img width="1200" height="240" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/TollSys1.png"></a></p>
+<p><a target="_blank" rel="noopener noreferrer"><img width="1000" height="200" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/TollSys1.png"></a></p>
 部署方案2
-<p><a target="_blank" rel="noopener noreferrer"><img width="1200" height="240" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/TollSys2.png"></a></p>
+<p><a target="_blank" rel="noopener noreferrer"><img width="1000" height="200" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/TollSys2.png"></a></p>
 部署方案3
-<p><a target="_blank" rel="noopener noreferrer"><img width="1200" height="240" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/TollSys3.png"></a></p>
+<p><a target="_blank" rel="noopener noreferrer"><img width="1000" height="200" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/TollSys3.png"></a></p>
 
 ## 部署模式解释
 如果使用部署模式1：该模式矿机直连服务端代理，无需客户端代理，链路如下所示
