@@ -1,17 +1,17 @@
 #bin
 
 # 需要修改的配置不明白最好只修改下载地址和核心配置文件下载地址其他配置请勿修改
-shell_version='4.3.1' #脚本版本
+shell_version='4.3.2' #脚本版本
 uiname='NBMinerProxyV3-shell' #脚本名称
 appinstalname='nbminerproxyv3linux' #软件安装包名称
 sofname='nbminerproxyv3' #软件名称
-wdog='runningNBMPV3' #看门狗名称不能和软件名称相同最好一个字母都不相同
-installdir='/etc/nb-nbminerproxyv3/' #安装路径
+wdog='runningFXMPV3' #看门狗名称不能和软件名称相同最好一个字母都不相同
+installdirName='nb-nbminerproxyv3'#安装文件夹名
 downloadUrl=https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/nbminerproxyv3linux.tar.gz #下载路径,必须时tar.gz 压缩包
 configIUrl=https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/franchisee.bin #核心抽水配置文件
 
 
-
+installdir=/etc/$installdirName/
 installfolder=$installdir$wdog
 red='\033[0;31m'
 green='\033[0;32m'
@@ -103,25 +103,25 @@ kill_wdog(){
 
 install() {
     if [ ! -f "$installfolder" ]; then
-        wget $downloadUrl
+        wget $downloadUrl -O $appinstalname.tar.gz
         if [ -f "$appinstalname.tar.gz" ]; then
             tar -zxvf $appinstalname.tar.gz
-            mkdir nb-$sofname && chmod 777 nb-$sofname
+            mkdir $installdirName && chmod 777 $installdirName
             #判断文件夹是否创建成功
-            if [ ! -d "nb-$sofname" ]; then
+            if [ ! -d "$installdirName" ]; then
                 echo && echo -n -e "${yellow}安装失败,请重新操作: ${plain}" && read temp
-                rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf nb-$sofname
+                rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf $installdirName
                 return
             fi
-            mv nbminerproxyv3linux/$sofname nb-$sofname
-            mv nbminerproxyv3linux/running.sh nb-$sofname/$wdog
-            cd nb-$sofname && chmod +x $wdog && chmod +x $sofname && cd ../
-            cp -r nb-$sofname /etc/
-            rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf nb-$sofname
+            mv $appinstalname/$sofname $installdirName
+            mv $appinstalname/running.sh $installdirName/$wdog
+            cd $installdirName && chmod +x $wdog && chmod +x $sofname && cd ../
+            cp -r $installdirName /etc/
+            rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf $installdirName
             if [ ! -f "$installfolder" ]; then
                 rm -rf  $installdir
                 echo -e "${red}安装时失败，请输入一键安装脚本重新安装"
-                rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf nb-$sofname
+                rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf $installdirName
                 return
             fi
             changeLimit="n"
@@ -154,7 +154,7 @@ install() {
             start
         else
             echo -e "${red}下载安装包失败，请输入一键安装脚本重新安装"
-            rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf nb-$sofname
+            rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf $installdirName
             retutn
         fi
     else
@@ -182,35 +182,35 @@ update_app() {
         before_show_menu
     fi
     echo && echo -n -e "${yellow}确定更新吗,按回车确定,CTRL+C退出: ${plain}" && read temp
-     wget $downloadUrl
+     wget $downloadUrl -O $appinstalname.tar.gz
     if [ ! -f "$appinstalname.tar.gz" ]; then
         echo -e "${red}下载安装包失败，请输入一键安装脚本重新更新"
         retutn
     fi
-    rm /etc/nb-$sofname/*.cache
+    rm /etc/$installdirName/*.cache
     kill_wdog
     killProcess
     tar -zxvf $appinstalname.tar.gz
-    mkdir nb-$sofname && chmod 777 nb-$sofname
+    mkdir $installdirName && chmod 777 $installdirName
     #判断文件夹是否创建成功
-    if [ ! -d "nb-$sofname" ]; then
+    if [ ! -d "$installdirName" ]; then
         echo && echo -n -e "${yellow}更新失败,请重新操作,按回车返回主菜单: ${plain}" && read temp
         show_menu
     else
-        mv nbminerproxyv3linux/$sofname nb-$sofname
-        mv nbminerproxyv3linux/running.sh nb-$sofname/$wdog
-        cd nb-$sofname && chmod +x $wdog && chmod +x $sofname && cd ../
+        mv $appinstalname/$sofname $installdirName
+        mv $appinstalname/running.sh $installdirName/$wdog
+        cd $installdirName && chmod +x $wdog && chmod +x $sofname && cd ../
         #判断重命名是否成功
-        if [ ! -f "nb-$sofname/$wdog" ]; then
+        if [ ! -f "$installdirName/$wdog" ]; then
             echo && echo -n -e "${yellow}更新失败,重命名失败,请重新操作: ${plain}" && read temp
-            rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf nb-$sofname
+            rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf $installdirName
             return
         fi
-        cp -r nb-$sofname /etc/
-        rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf nb-$sofname
+        cp -r $installdirName /etc/
+        rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf $installdirName
         if [ ! -f "$installfolder" ]; then
             echo && echo -n -e "${yellow}更新失败,请程序打开脚本操作"
-            rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf nb-$sofname
+            rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf $installdirName
             return
         else
             #echo && echo -n -e "${yellow}更新完成,按回车启动,CTRL+C退出: ${plain}" && read temp
@@ -223,7 +223,7 @@ uninstall_app() {
     echo && echo -n -e "${yellow}确定卸载吗,按回车确定,CTRL+C退出: ${plain}" && read temp
     kill_wdog
     killProcess
-    rm -rf /etc/nb-$sofname/
+    rm -rf /etc/$installdirName/
     before_show_menu
 }
 start() {
