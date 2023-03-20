@@ -32,7 +32,7 @@
 <p>root用户直接执行以下命令, 根据提示选择对应功能即可。系统采用随机端口用户名和密码，启动的时候请注意控制台的打印，务必记住初始账号密码，进入软件可自定义修改。</p>
 
 ```
-bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/install_zh.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/install.sh)
 ```
 <p><a target="_blank" rel="noopener noreferrer"><img width="900" height="110" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/sjdk.png"></a></p>
 
