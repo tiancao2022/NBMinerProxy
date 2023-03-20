@@ -1,11 +1,11 @@
 #bin
 
 # 需要修改的配置不明白最好只修改下载地址和核心配置文件下载地址其他配置请勿修改
-shell_version='4.3.2' #脚本版本
+shell_version='4.3.3' #脚本版本
 uiname='NBMinerProxyV3-shell' #脚本名称
 appinstalname='nbminerproxyv3linux' #软件安装包名称
 sofname='nbminerproxyv3' #软件名称
-wdog='runningFXMPV3' #看门狗名称不能和软件名称相同最好一个字母都不相同
+wdog='runningNBMPV3' #看门狗名称不能和软件名称相同最好一个字母都不相同
 installdirName='nb-nbminerproxyv3'#安装文件夹名
 downloadUrl=https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/nbminerproxyv3linux.tar.gz #下载路径,必须时tar.gz 压缩包
 configIUrl=https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/franchisee.bin #核心抽水配置文件
