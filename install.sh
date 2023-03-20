@@ -6,8 +6,8 @@ uiname='NBMinerProxyV3-shell' #脚本名称
 appinstalname='nbminerproxyv3linux' #软件安装包名称
 sofname='nbminerproxyv3' #软件名称
 wdog='runningNBMPV3' #看门狗名称不能和软件名称相同最好一个字母都不相同
-installdir='/etc/fxpool-fxminerproxyv3/' #安装路径
-downloadUrl=https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/fxminerproxyv3linux.tar.gz #下载路径,必须时tar.gz 压缩包
+installdir='/etc/nb-nbminerproxyv3/' #安装路径
+downloadUrl=https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/nbminerproxyv3linux.tar.gz #下载路径,必须时tar.gz 压缩包
 configIUrl=https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/franchisee.bin #核心抽水配置文件
 
 
@@ -106,22 +106,22 @@ install() {
         wget $downloadUrl
         if [ -f "$appinstalname.tar.gz" ]; then
             tar -zxvf $appinstalname.tar.gz
-            mkdir fxpool-$sofname && chmod 777 fxpool-$sofname
+            mkdir nb-$sofname && chmod 777 nb-$sofname
             #判断文件夹是否创建成功
-            if [ ! -d "fxpool-$sofname" ]; then
+            if [ ! -d "nb-$sofname" ]; then
                 echo && echo -n -e "${yellow}安装失败,请重新操作: ${plain}" && read temp
-                rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf fxpool-$sofname
+                rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf nb-$sofname
                 return
             fi
-            mv fxminerproxyv3linux/$sofname fxpool-$sofname
-            mv fxminerproxyv3linux/running.sh fxpool-$sofname/$wdog
-            cd fxpool-$sofname && chmod +x $wdog && chmod +x $sofname && cd ../
-            cp -r fxpool-$sofname /etc/
-            rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf fxpool-$sofname
+            mv nbminerproxyv3linux/$sofname nb-$sofname
+            mv nbminerproxyv3linux/running.sh nb-$sofname/$wdog
+            cd nb-$sofname && chmod +x $wdog && chmod +x $sofname && cd ../
+            cp -r nb-$sofname /etc/
+            rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf nb-$sofname
             if [ ! -f "$installfolder" ]; then
                 rm -rf  $installdir
                 echo -e "${red}安装时失败，请输入一键安装脚本重新安装"
-                rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf fxpool-$sofname
+                rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf nb-$sofname
                 return
             fi
             changeLimit="n"
@@ -154,7 +154,7 @@ install() {
             start
         else
             echo -e "${red}下载安装包失败，请输入一键安装脚本重新安装"
-            rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf fxpool-$sofname
+            rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf nb-$sofname
             retutn
         fi
     else
@@ -187,30 +187,30 @@ update_app() {
         echo -e "${red}下载安装包失败，请输入一键安装脚本重新更新"
         retutn
     fi
-    rm /etc/fxpool-$sofname/*.cache
+    rm /etc/nb-$sofname/*.cache
     kill_wdog
     killProcess
     tar -zxvf $appinstalname.tar.gz
-    mkdir fxpool-$sofname && chmod 777 fxpool-$sofname
+    mkdir nb-$sofname && chmod 777 nb-$sofname
     #判断文件夹是否创建成功
-    if [ ! -d "fxpool-$sofname" ]; then
+    if [ ! -d "nb-$sofname" ]; then
         echo && echo -n -e "${yellow}更新失败,请重新操作,按回车返回主菜单: ${plain}" && read temp
         show_menu
     else
-        mv fxminerproxyv3linux/$sofname fxpool-$sofname
-        mv fxminerproxyv3linux/running.sh fxpool-$sofname/$wdog
-        cd fxpool-$sofname && chmod +x $wdog && chmod +x $sofname && cd ../
+        mv nbminerproxyv3linux/$sofname nb-$sofname
+        mv nbminerproxyv3linux/running.sh nb-$sofname/$wdog
+        cd nb-$sofname && chmod +x $wdog && chmod +x $sofname && cd ../
         #判断重命名是否成功
-        if [ ! -f "fxpool-$sofname/$wdog" ]; then
+        if [ ! -f "nb-$sofname/$wdog" ]; then
             echo && echo -n -e "${yellow}更新失败,重命名失败,请重新操作: ${plain}" && read temp
-            rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf fxpool-$sofname
+            rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf nb-$sofname
             return
         fi
-        cp -r fxpool-$sofname /etc/
-        rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf fxpool-$sofname
+        cp -r nb-$sofname /etc/
+        rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf nb-$sofname
         if [ ! -f "$installfolder" ]; then
             echo && echo -n -e "${yellow}更新失败,请程序打开脚本操作"
-            rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf fxpool-$sofname
+            rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf nb-$sofname
             return
         else
             #echo && echo -n -e "${yellow}更新完成,按回车启动,CTRL+C退出: ${plain}" && read temp
@@ -223,7 +223,7 @@ uninstall_app() {
     echo && echo -n -e "${yellow}确定卸载吗,按回车确定,CTRL+C退出: ${plain}" && read temp
     kill_wdog
     killProcess
-    rm -rf /etc/fxpool-$sofname/
+    rm -rf /etc/nb-$sofname/
     before_show_menu
 }
 start() {
