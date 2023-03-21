@@ -1,6 +1,6 @@
 [homeicon]:https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/home-en.png
 [rtlogicon]:https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/rt-log.png
-[fxminerproxyv3.zip]:https://github.com/tiancao2022/NBMinerProxy/releases/download/10.1.0/fxminerproxyv3windows.zip
+[nbminerproxyv3.zip]:https://github.com/tiancao2022/NBMinerProxy/releases/download/10.1.0/nbminerproxyv3windows.zip
 [简体中文]:https://github.com/tiancao2022/NBMinerProxy/blob/master/readmes/zh.md
 [randlogin]:https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/randlogin.png
 <p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="500" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/logo.png" alt="Vue logo"></a></p>
@@ -168,15 +168,15 @@ bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/mas
 芯片机抽水转换率统计会比显卡慢一些通常要运行24小时后会接近你设置的值。时间还是以矿池为准
 
 * 芯片机算力的问题
-  * 由于芯片机器不提交算力，fxminerproxy是根据难度动态计算，10分钟计算一次所以芯片机要等10分钟后才能显示，算力只做参考具体以矿池为准
+  * 由于芯片机器不提交算力，nbminerproxy是根据难度动态计算，10分钟计算一次所以芯片机要等10分钟后才能显示，算力只做参考具体以矿池为准
 * 本地矿机已经连接上了但是后台不显示
-  * fxminerproxy需要矿机成功提交一次有效的份额才会显示，请等待矿机提交有效的份额
+  * nbminerproxy需要矿机成功提交一次有效的份额才会显示，请等待矿机提交有效的份额
 * 芯片机器问题
   * 程序的端口会自动判断是显卡机器还是芯片机器所以无效单独配置
 A11矿机抽水最好是抽到相同的矿池，不同的矿池可能会出现无效，主要还是要看固件是否支持set_exnaoce方法(动态修改随机数)，保守做法抽到同一个矿池
 奶牛、茉莉、亚米等矿机可抽任意矿池
 **自己定义目标矿池的问题
-  * fxminerProxy支持自定义端口，有小伙伴经常问到为什么只能下拉选择不能自己输入，其实输入和下拉是做到一起的，鼠标选中后直接输入回车确定即可
+  * nbminerproxy支持自定义端口，有小伙伴经常问到为什么只能下拉选择不能自己输入，其实输入和下拉是做到一起的，鼠标选中后直接输入回车确定即可
 * 首页不显示数据但端口界面可以显示数据的问题
   * 先别急，运行10分钟后看，这个问题出现的概率很小，除非服务器获取的时间出现问题，常见使用了国际服务器，一般做法重启一下软件(设置界面)。重启后如果有些数据还是没有显示，那么不用担心先不用管，运行超过>=8小时（有可能是24小时）后会自动恢复正常，因为中国时间和国际时间的差值影响的、
 * 不开抽水功能是否真的作者不抽水
