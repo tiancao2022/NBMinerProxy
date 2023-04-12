@@ -41,7 +41,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/mas
 * 本地端隧道加密windows客户端下载	[本地加密隧道_V1.4.5](https://github.com/tiancao2022/NBMinerProxy/blob/master/nbminerproxyv3windows_client1.45.zip)
 
 ## NBMinerProxy部署模式
-<p><a target="_blank" rel="noopener noreferrer"><img width="1000" height="200" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/TollSys4.jpg"></a></p>
+<p><a target="_blank" rel="noopener noreferrer"><img width="1000" height="500" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/TollSys4.jpg"></a></p>
 
 ## 部署模式解释
 如果使用部署模式1：该模式矿机直连服务端代理，无需客户端代理，链路如下所示
