@@ -56,10 +56,6 @@ bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/mas
 
 矿机->客户端代理(本地局域网)->运营商->服务端代理(香港云主机)->矿池
 
-## 后台面板
-![homeicon]
-![rtlogicon]
-
 
 ## 推荐服务器配置
 
