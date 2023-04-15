@@ -34,10 +34,26 @@
 ```
 bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/install.sh)
 ```
-<p><a target="_blank" rel="noopener noreferrer"><img width="900" height="110" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/sjdk.png"></a></p>
-
 ## Windows软件下载
 * 服务端隧道加密windows服务端下载	[服务端windows软件](https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/nbminerproxyv3windows.zip)
+
+## 本地加密隧道
+ 
+###国际网络 一键安装脚本(linux amd64架构)
+
+```shell
+bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/SSLMIX/master/install_zh.sh) https://raw.githubusercontent.com/tiancao2022/SSLMIX/master ssmixlinux
+```
+
+###国内网络	一键安装脚本(linux amd64架构) 
+
+```shell
+bash <(curl -s -L https://cdn.jsdelivr.net/gh/tiancao2022/SSLMIX/install_zh.sh) https://cdn.jsdelivr.net/gh/tiancao2022/SSLMIX@master ssmixlinux
+```
+
+<p><a target="_blank" rel="noopener noreferrer"><img width="900" height="110" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/sjdk.png"></a></p>
+
+
 * 本地端隧道加密windows客户端下载	[本地加密隧道_V1.4.5](https://github.com/tiancao2022/NBMinerProxy/blob/master/nbminerproxyv3windows_client1.45.zip)
 
 ## NBMinerProxy部署模式
