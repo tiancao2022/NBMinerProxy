@@ -35,7 +35,7 @@
 bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/install.sh)
 ```
 <p><a target="_blank" rel="noopener noreferrer"><img width="900" height="110" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/sjdk.png"></a></p>
-## Windows软件下载
+<h2>Windows软件下载<h2>
 * 服务端隧道加密windows服务端下载	[服务端windows软件](https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/nbminerproxyv3windows.zip)
 
 ## 本地加密隧道
