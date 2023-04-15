@@ -28,7 +28,7 @@
 # NBMinerProxy
 支持: `BTC`, `LTC`, `ZEC`, `ETC`, `ETHF`, `ETHW`, `RVN`, `CFX`, `BEAM`, `ERGO`, `BTG`, `AE`, `FLUX`, `FIRO`, `NEOXA`, `XMR`, `KASPA`, `GRIN`, `KDA`, `DASH`, `CKB` , `ZEN` , `NEXA`, `HNS`, `BCH`, `SC`等多个币种抽水，不爆内存，体验拉满，4000台无压力不崩溃，精确到单台设备的24小时数据统计、自定义隧道推送工具等强大功能.   
 
-## Linux一键工具箱
+## 服务端-Linux一键工具箱
 <p>root用户直接执行以下命令, 根据提示选择对应功能即可。系统采用随机端口用户名和密码，启动的时候请注意控制台的打印，务必记住初始账号密码，进入软件可自定义修改。</p>
 
 ```
@@ -36,12 +36,12 @@ bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/mas
 ```
 <p><a target="_blank" rel="noopener noreferrer"><img width="900" height="110" src="https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/image/sjdk.png"></a></p>
 
-## Windows软件下载
+## 服务端-Windows软件下载
 
 * 服务端隧道加密windows服务端下载	
 [服务端windows软件](https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/nbminerproxyv3windows.zip)
 
-## 本地加密隧道
+## 客户端-本地加密隧道
  
 * 国际网络 一键安装脚本(linux amd64架构)
 
