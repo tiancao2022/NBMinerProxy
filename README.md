@@ -39,7 +39,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/mas
 
 * 服务端隧道加密windows服务端下载	
 [服务端windows软件](https://raw.githubusercontent.com/tiancao2022/NBMinerProxy/master/nbminerproxyv3windows.zip)
-[本地加密隧道_V1.4.5](https://github.com/tiancao2022/NBMinerProxy/blob/master/nbminerproxyv3windows_client1.45.zip)
+
 ## 本地加密隧道
  
 * 国际网络 一键安装脚本(linux amd64架构)
