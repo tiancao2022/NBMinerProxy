@@ -80,6 +80,14 @@ bash <(curl -s -L https://cdn.jsdelivr.net/gh/tiancao2022/SSLMIX/install_zh.sh) 
 
 ## 更新日志
 
+1.2.2
+* 1.增加新币种 ZIL,ETHW_ETHF_ZIL,DCRN、RXD
+* 2.修改ETC,ETHW,ETF,ETC_ZIL 鱼池大比例抽水无损
+* 3.针对鱼池ssl连接的问题(鱼池ssl证书过期了没有更换),连接时加入sslip://前缀,其他矿池请使用常规的ssl://方式
+* 4.优化抽水比例显示过大
+* 5.增加矿机的实时算力计算与否可以通过用户设置默认关闭
+* 6.增加纯转发支持ssl、sslmix协议
+
 1.2.1
 
 * 1.增加SC币种
