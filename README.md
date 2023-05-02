@@ -80,6 +80,12 @@ bash <(curl -s -L https://cdn.jsdelivr.net/gh/tiancao2022/SSLMIX/install_zh.sh) 
 
 ## 更新日志
 
+1.2.3
+* 1.增加新币种 IRON
+* 2.优化抽水转化率显示提升各币种抽水转换率
+* 3.优化心动A11矿机的抽水解决在挖矿账户中会显示客户矿机名字的BUG(抽水高级参数加-skip-special=innominer)
+
+
 1.2.2
 * 1.增加新币种 ZIL,ETHW_ETHF_ZIL,DCRN、RXD
 * 2.修改ETC,ETHW,ETF,ETC_ZIL 鱼池大比例抽水无损
